@@ -20,7 +20,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [solution URL](https://github.com/islemtouhami/clipboard-landing-page-master)
-- Live Site URL: [ live site URL](https://your-live-site-url.com)
+- Live Site URL: [ live site URL](https://nervous-pike-56803d.netlify.app/)
 
 ### Built with
 
