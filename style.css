@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:hsl(201, 11%, 66%) ;
+    font-family: "Bai Jamjuree";
+}
+.continer{
+    padding: 10px;
+}
+h1,
+h2,
+h3,
+h4{
+    color: hsl(210, 10%, 33%);
+} 
+p{
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+button{
+    width: 150px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius:20px ;
+    padding: 12px;
+}
+.btn-1{
+    background-color: hsl(171, 66%, 44%);
+}
+.btn-2{
+    background-color:hsl(233, 100%, 69%) ;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+header img{
+    margin-bottom: 30px;
+    width: 70px;
+}
+header h1,
+.part-4 h2{
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header {
+    width: 100%;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.part-4 ,header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.part-1 h2,
+.part-2 h2{
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.part-1 p,
+.part-2 p{
+    text-align: center;
+    margin-bottom :20px;
+}
+.part-1 img{
+    width: 60%;
+    padding: 10px;
+}
+.part-1 .info{
+    display: flex;
+    align-items: center;
+}
+.part-1 .Typography{ 
+    margin-left: 100px;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
+.Typography div{
+    width:100%;
+}
+.part-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-2 img{
+    width: 80%;
+}
+
+.part-3{
+    text-align: center;
+}
+.part-3 .icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon div{
+    margin-top: 50px;
+    width: 30%;
+}
+.icon div:not(last-child) img{
+    width:10%;
+}
+.part-3 .compnise{
+    margin-top: 200px;
+    margin-bottom :200px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part-3 .compnise img{
+    width: 10%;    
+}
+
+footer{
+    padding: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+}
+footer img{
+    flex-basis: calc(5%);
+    margin-left: 7%;
+    width: 5%;
+}
+footer .icon {
+    flex-basis:calc(25%);
+}
+footer .icon img{
+    width: 10%;
+}
+footer .guide{
+    flex-basis: calc(30%);
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+footer .guide p{
+margin-left: 5%;
+}
+footer .guide p:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+footer .icon img:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+ @media(max-width:720px){
+header {
+    width: 100%;
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header img{
+    width: 30%;
+}
+button{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.btn{
+  flex-direction: column;
+}
+.part-1 .Typography{ 
+    margin-left: 0;
+
+}
+.part-1 .info{
+    flex-direction: column;
+}
+.Typography div{
+    text-align: center;
+
+}
+.part-3 .icon{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part-3 div{
+    width: 100%;
+}
+.part-3 .compnise{
+    flex-direction: column;
+    align-items: center;
+}
+.part-3 .compnise img{
+    width: 40%;
+    margin-top: 30%;
+}
+footer{
+    align-items: center;
+    flex-direction: column;
+}
+footer img{
+    margin-right: 10px;
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+footer .icon{
+    margin-top: 30px;
+    align-items: center;
+   display: flex;
+}
+footer .icon img{
+    margin-left: 10px;
+    width: 30%;
+}
+footer .guide{
+    flex-direction: column;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 7px;
+}
+
+ }
