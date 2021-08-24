@@ -13,8 +13,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ## Overview
 
 ### Screenshot
-![](/design/screenshot.jpg)
-![](/design/screenshot2.jpg)
+[](/design/screenshot.jpg)
+[](/design/screenshot2.jpg)
 
 
 ### Links
