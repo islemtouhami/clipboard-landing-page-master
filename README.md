@@ -19,7 +19,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Asolution URL](https://your-solution-url.com)
+- Solution URL: [solution URL](https://github.com/islemtouhami/clipboard-landing-page-master)
 - Live Site URL: [ live site URL](https://your-live-site-url.com)
 
 ### Built with
